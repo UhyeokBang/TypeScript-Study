@@ -6,7 +6,7 @@ anyVar = {};
 anyVar = () => {};
 
 let num: number = 10;
-// num = anyVar;
+// num = anyVar; //가능
 
 let unknownVar: unknown;
 
@@ -14,4 +14,4 @@ unknownVar = "";
 unknownVar = 1;
 unknownVar = () => {};
 
-num = unknownVar;
+// num = unknownVar; //이건 불가능
