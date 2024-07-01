@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleDetection": "force",
+    "strict": true,
+    "allowJs": true
+  },
+  "include": ["src"]
+}
