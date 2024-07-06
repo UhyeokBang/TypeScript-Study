@@ -10,3 +10,5 @@ type Animal = "dog" | "cat" | "chicken";
 
 // Good ✅
 type ColoredAnimal2 = `${Color}-${Animal}`;
+
+// const a:ColoredAnimal2 = 'green-cat'
